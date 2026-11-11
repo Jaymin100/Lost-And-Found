@@ -1,0 +1,3 @@
+-- Owner: Jackson / Jaymin
+-- Source of truth for tables: admins, active_items, archive_items
+-- Anyone who changes this posts in Discord so everyone re-runs it
