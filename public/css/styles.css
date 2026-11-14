@@ -35,7 +35,7 @@ h1 {
     font-family: sans-serif;
     font-weight: bold;
 
-    position: fixed; /* Sticks banner to top of viewport */
+    position: relative; /* Sticks banner to top of viewport */
     top: 0;
     left: 0;
     width: 100%;
@@ -73,4 +73,59 @@ h1 {
 
 .cta-button:hover {
   background: #0056b3;
+}
+
+
+.reader-layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.sidebar {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+
+.item-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 15;
+}
+
+.item-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.item-info {
+    padding: 15px;
+}
+.item-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keywords-list {
+    background: #eee;
+    padding: 5px 9px;
+    border-radius: 15px;
+    font-size: 12px;
 }
