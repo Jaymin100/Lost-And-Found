@@ -1,1 +1,76 @@
-/* Owner: Jacob */
+body {
+
+    background-color: aliceblue;
+    font-family: 'roboto';
+}
+
+h1 {
+    color: #333
+}
+
+.top-of-top-banner {
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-family: 'roboto';
+
+    font-weight: lighter;
+    
+    list-style: none;
+    padding: 0;
+    margin: 6px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;     /* Adds space between items */
+  
+    .other {
+        background-color: #CC1242;
+    }
+}
+
+
+
+.top-banner {
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    position: fixed; /* Sticks banner to top of viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+
+
+.banner-content {
+  max-width: 1200px;
+  margin: 10px;
+  padding: 20px;
+  gap: 10px;
+      display: flex;
+    justify-content: flex-end;
+
+    .icon {
+        justify-content: flex-start;
+    }
+}
+
+.cta-button {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.cta-button:hover {
+  background: #0056b3;
+}
