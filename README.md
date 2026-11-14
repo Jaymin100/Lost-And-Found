@@ -16,7 +16,7 @@ updates, with no details.
 
 ## First-time local setup
 
-1. Install Python 3.12, MySQL 8.0, and Git.
+1. Install Python 3.16, MySQL 8.0, and Git.
 2. Clone the repo, create a virtual environment, activate it, and install dependencies:
    ```
    python -m venv .venv
